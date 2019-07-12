@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "749883447128",
+    "firebase_url": "https://appfood-484a0.firebaseio.com",
+    "project_id": "appfood-484a0",
+    "storage_bucket": "appfood-484a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749883447128:android:0308cfddca500b42",
+        "android_client_info": {
+          "package_name": "appfood.hugobianquini.com.appfoodni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749883447128-189fstl591bk8squb57vt4eggeo2pug6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "appfood.hugobianquini.com.appfoodni",
+            "certificate_hash": "40b95d71d8ab6b863c8f7b1e463dbd7cc5105027"
+          }
+        },
+        {
+          "client_id": "749883447128-mtf9q2bdf2g0od5bu3peat6jaue50j5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZuW0b5STnz0KmeodL_-5oj2ghvUTU_XU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749883447128-mtf9q2bdf2g0od5bu3peat6jaue50j5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

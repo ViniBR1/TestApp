@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textPedidoEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Jamilton damasceno"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textPedidoEndereco3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:text="endereço empresa"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textCEP3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:text="CEP: 25510-300"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textNumeroEmpresaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:text="Pgto: Dinheiro"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textPedidoPgto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:text="Pgto: Dinheiro"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textPedidoTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="3dp"
+        android:text="Total:"
+        android:textColor="@color/LaranjaEscuro"
+        android:textSize="14sp" />
+
+    <include layout="@layout/divisor" />
+
+
+</LinearLayout>

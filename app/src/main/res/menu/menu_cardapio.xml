@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuPedido"
+        android:title="Confirmar Pedido"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuSobreEmpresa"
+        android:title="Sobre o Restaurante..."
+        app:showAsAction="never"
+
+        ></item>
+
+    <item
+        android:id="@+id/menuAvaliacao"
+        android:title="Avaliação do Restaurante"
+        app:showAsAction="never"
+
+        ></item>
+
+
+    <item
+        android:id="@+id/menuCancelar"
+
+        android:title="Cancelar Pedido"
+        app:showAsAction="never" />
+
+
+
+</menu>

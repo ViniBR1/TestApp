@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageFinalizado"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/perfil" />
+
+    <TextView
+        android:id="@+id/textPedidoNome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Jamilton damasceno"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textPedidoEndereco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:text="Endereço: rua almeida prado, 1300"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textCEP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:text="CEP: 25510-300"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textPedidoPgto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dp"
+        android:text="Pgto: Dinheiro"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textPedidoObs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="STATUS : FINALIZADO"
+        android:textColor="@color/LaranjaEscuro"
+        android:textSize="17sp" />
+
+    <include layout="@layout/divisor" />
+
+</LinearLayout>
